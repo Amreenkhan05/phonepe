@@ -1,0 +1,836 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 160px; 
+}
+.navbar i{
+    display: none;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+/* .........page 1............. */
+.container-1{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./img/view.png);
+}
+.view-text{
+    padding-left: 160px;
+    padding-top: 90px;
+}
+.view-text h1{
+    font-size: 45px;
+    color: white;
+}
+.view-text p{
+    font-size: 20px;
+    color:  rgb(91, 16, 161);
+    padding-top: 20px;
+    
+}
+#know{
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(140, 72, 204);
+    margin-top: 20px;
+}                               
+/*............page 2................  */
+.container-2{
+    width: 100%;
+    height: 90vh;
+    
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 160px;
+
+}
+.insurance{
+    width: 30%;
+    height: 45vh;
+    border: 1px solid rgb(85, 5, 85);
+    background-image: url(./img/svgexport-2.svg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    /* display: flex; */
+    position: relative;
+}
+
+.insurance h1{
+    color: blueviolet;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;    
+}
+.investment{
+    width: 30%;
+    height: 45vh;
+    border: 1px solid rgb(85, 5, 85);
+    background-image: url(./img/svgexport-3.svg);
+    border-radius: 15px;
+    position: relative;
+}
+.investment h1{
+    color: blueviolet;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;  
+}
+.lending{
+    width: 30%;
+    height: 45vh;
+    border: 1px solid rgb(85, 5, 85);
+    background-image: url(./img/svgexport-4.svg);
+    border-radius: 15px;
+    position: relative;
+}
+.lending h1{
+    color: blueviolet;
+    position: absolute;
+    bottom: 2%;
+    left: 2%; 
+}
+/* .......simple....... */
+.container-3{
+    width: 100%;
+    height: 100vh;
+    
+}
+.simple{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.s-text{
+    width: 40%;
+    height: 100vh;
+    
+    line-height: 40px;
+    /* display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: start; */
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.s-text h1{
+    font-size: 45px;
+    color: rgb(32, 1, 32);
+}
+.s-text h2{
+    font-weight: 400;
+    padding-top: 40px;
+}
+.s-video{
+    width: 50%;
+    height: 90vh;
+}
+/* .......slogan........... */
+.container-4{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    
+    
+}
+.ja{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ja img{
+    width: 600px;
+}
+#ja-2{
+    width: 190px;
+}
+/* ..........5 images.............. */
+.container-5{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.images-5 {
+    width: 100%;
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* padding-inline: 40%; */
+    /* border: 2px solid green; */
+    
+
+
+}
+
+.spn-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* padding-inline: 40%; */
+    /* border: 2px solid green; */
+}
+
+
+
+.aunt{
+    position: absolute;
+    right:65%;
+    z-index: -1;
+    width: 410px;
+    
+}
+
+/* .spn-1 img:first-child:hover {
+    z-index: 10;
+    transition: all ease-in-out 1s;
+    transform: scale(1.1);
+} */
+
+#motor{
+    position: absolute;
+    /* right: 40%; */
+    z-index: 1;
+    width: 440px;
+    left: 15%;
+}
+
+#uncle{
+    position: absolute;
+    right: 70%;
+    z-index: 2;
+    width: 460px;
+    left: 30%;
+}
+
+#boy{
+    position: absolute;
+    /* right: 70%; */
+    z-index: 1;
+    width: 440px;
+    left: 45%;
+}
+
+#boy-1{
+    position: absolute;
+    /* right: 70%; */
+    z-index: -1;
+    width: 410px;
+    left: 60%;
+}
+/* ............watch.................. */
+.container-6{
+    width: 100%;
+    height: 50vh;
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch{
+    
+}
+.watch button{
+    width: 300px;
+    height: 40px;
+    color: rgb(101, 23, 173);
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid  rgb(101, 23, 173);
+    margin-left: 400px;
+}
+.watch p{
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(95, 94, 94);
+    padding-left: 50px;
+}
+#kjbj{
+    color:  rgb(101, 23, 173) ;
+    padding-left: 450px;
+}
+/* ...........100 page................... */
+.container-7{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-100{
+    width: 100%;
+    height: 55vh;
+    background-image: url(./img/100\ page.png);
+    background-size: cover;
+    background-position: center;
+    background-color:   rgb(170, 118, 218);
+    border-radius: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.your{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.dss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 20px */
+    gap: 40px;
+    /* padding-bottom: 50px; */
+}
+.your h1{
+    color: white;
+    font-size: 50px;
+    /* margin-top: 60px; */
+    /* padding-top: 70px; */
+    
+}
+.page-100 p{
+    color: white;
+    font-size: 23px;
+    line-height: 30px;
+    /* line-height: 30px; */
+}
+#pg{
+    width: 150px;
+    /* margin-right: 700px; */
+    position: relative;
+    left: -80%;
+    /* border: 1px solid black; */
+    /* padding-bottom: 80px; */
+    /* margin-bottom: 70px; */
+
+
+}
+#pci{
+    width: 110px;
+}
+#iso{
+    width: 110px;
+    /* margin-left: 30px; */
+}
+/* ...........3.8 crore............................ */
+.container-8{
+    width: 100%;
+    height: 100vh;
+
+}
+.at{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.at h1{
+    font-size: 60px;
+    color: rgb(48, 2, 48);
+    /* text-align: center; */
+}
+.at button{
+    width: 250px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: rgb(6, 135, 179);
+    color: white;
+    border: none;
+    margin-top: 30px;    
+}
+.at img{
+    width: 20px;
+}
+#myn{
+    width: 1200px;
+    margin-left: 50px;
+}
+/* ...........for business................... */
+.container-9{
+    width: 100%;
+    height: 100vh;
+}
+.for{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.business{
+    width: 60%;
+    height: 100vh;
+    background-image: url(./img/basket-desktop.png);
+}
+.business img{
+    width: 650px;
+}
+.for-text{
+    width: 40%;
+    height: 100vh;
+    line-height: 53px;
+    margin-left: 30px;
+}
+.for-text h1{
+    font-size: 40px;
+    color: rgb(83, 6, 83);
+
+}
+.for-text p{
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+.for-text h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(61, 60, 60);
+
+}
+.for-text h3{
+    color: rgb(102, 15, 102);
+}
+/* ..............pulse...................... */
+.container-10{
+    width: 100%;
+    height: 100vh;
+}
+.pulse{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./img/pulse.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.trusted p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.trusted h1{
+    color: white;
+    font-size: 40px;
+}
+
+.Accepted p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.Accepted h1{
+    color: white;
+    font-size: 40px;
+}
+
+.crore p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.crore h1{
+    color: white;
+    font-size: 40px;
+}
+#explore{
+    margin-top: 50px;
+    display: flex;
+}
+#explore h2{
+    color: rgb(216, 202, 202);
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+#explore button{
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    border:3px solid aqua;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 30px;
+
+}
+/* ..................footer.......................... */
+.container-11{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    
+
+}
+.container-11 img{
+    width: 150px;
+}
+#bold{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+.container-11 ul{
+    list-style: none;
+    line-height: 40px;
+}
+.container-11 li{
+    font-size: 16px;
+    color: rgb(63, 62, 62);
+}
+#sisa{
+    width: 110px;
+}
+.container-11 button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+/* ..........media query.............. */
+@media (max-width:768px){
+    .navbar{
+        width: 100%;
+        height: 10vh;
+    }
+    .navbar img{
+        width: 160px;  
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+        font-size: 30px;
+    }
+    /* ........... */
+    .container-1{
+        width: 100%;
+        height: 80vh;
+        background-image: url(./img/view.png);
+    }
+    .view-text h1{
+        font-size: 35px;
+    }
+    .view-text p{
+        font-size: 15px;
+    }
+    .s-text h1{
+        font-size: 50px;
+    }
+    .s-video{
+        display: none;
+    }
+    /* ..................... */
+
+    .container-4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* margin-top: 50px; */
+}
+.ja img{
+    display: none;
+}
+/* ..................... */
+.container-6{
+    width: 100%;
+    height: 50vh;
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch button{
+    width: 300px;
+    height: 40px;
+    color: rgb(101, 23, 173);
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid  rgb(101, 23, 173);
+    margin-left: 240px;
+}
+.watch p{
+    padding-top: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(95, 94, 94);
+    padding-left: 50px;
+}
+#kjbj{
+    color:  rgb(101, 23, 173) ;
+    padding-left: 340px;
+}
+/* .................. */
+.container-7{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-100{
+    width: 100%;
+    height: 55vh;
+    background-image: url(./img/100\ page.png);
+    background-size: cover;
+    background-position: center;
+    background-color:   rgb(170, 118, 218);
+    border-radius: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.your{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.dss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 20px */
+    gap: 40px;
+    /* padding-bottom: 50px; */
+}
+.your h1{
+    color: white;
+    font-size: 30px;    
+}
+.page-100 p{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 20px;  
+}
+#pg{
+    width: 150px;
+    position: relative;
+    left: -80%;
+}
+#pci{
+    width: 110px;
+}
+#iso{
+    width: 110px;
+}
+/* ............ */
+.container-8{
+    width: 100%;
+    height: 100vh;
+
+}
+.at{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.at h1{
+    font-size: 40px;
+}
+.at button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;    
+}
+.at img{
+    width: 15px;
+}
+#myn{
+    width: 1200px;
+    margin-left: 50px;
+}
+/* ................. */
+.container-9{
+    width: 100%;
+    height: 100vh;
+}
+.for{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.business{
+    width: 60%;
+    height: 100vh;
+    background-image: url(./img/basket-desktop.png);
+}
+.business img{
+    display: none;
+}
+.for-text{
+    width: 40%;
+    height: 100vh;
+    line-height: 38px;
+    margin-left: 30px;
+}
+.for-text h1{
+    font-size: 30px;
+    color: rgb(83, 6, 83);
+
+}
+.for-text p{
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+}
+.for-text h2{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(61, 60, 60);
+
+}
+.for-text h3{
+    color: rgb(102, 15, 102);
+}
+/* ................... */
+
+.trusted p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.trusted h1{
+    color: white;
+    font-size: 40px;
+}
+
+.Accepted p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.Accepted h1{
+    color: white;
+    font-size: 40px;
+}
+
+.crore p{
+    color: rgb(172, 166, 166);
+    font-size: 20px;
+
+}
+.crore h1{
+    font-size: 30px;
+}
+#explore{
+    margin-top: 50px;
+    display: flex;
+}
+#explore h2{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+#explore button{
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    border:3px solid aqua;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 30px;
+
+}
+/* ........ */
+.container-11 img{
+    width: 120px;
+}
+#bold{
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+.container-11 ul{
+    list-style: none;
+    line-height: 20px;
+}
+.container-11 li{
+    font-size: 12px;
+    color: rgb(63, 62, 62);
+}
+#sisa{
+    width: 110px;
+}
+.container-11 button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+
+}
